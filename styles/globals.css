@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+@config "../tailwind.config.js";
+
+.text-ra {
+  font-family: var(--font-raleway);
+}
