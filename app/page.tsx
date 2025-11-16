@@ -21,7 +21,7 @@ export default function HomePage(): JSX.Element {
       <Image src={'/image-flag-orpheus-left.svg'} alt={'Flag Orpheus Left'} width={200} height={200} className='absolute' />
       <section className='w-full h-screen flex flex-col justify-center items-center gap-20'>
         <main>
-          <h1 className='text-ra font-extrabold text-6xl text-center'>WELCOME TO <span className='bg-blue-600 p-2 rounded-2xl'>HACK BIRTHDAY</span></h1>
+          <h1 className='text-ra font-extrabold text-6xl text-center animate-bounce'>WELCOME TO <span className='bg-blue-600 p-2 rounded-2xl'>HACK BIRTHDAY</span></h1>
         </main>
         <div className='flex justify-center items-center gap-2'>
           <Input className='w-96 text-ra' placeholder='Your Name' variant='faded' color='secondary' onChange={(e) => setName(e.target.value)} /> 

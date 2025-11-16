@@ -20,7 +20,7 @@ export default function Register(): JSX.Element {
   const handleRegister = async () => {
     try {
       await createUserWithEmailAndPassword(auth, email, password)
-      window.location.href = '/Login';
+      window.location.href = '/';
     } catch (error) {
       alert(`Register Error ${error}`)
     }

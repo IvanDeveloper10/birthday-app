@@ -36,11 +36,6 @@ export default function NavBar(): JSX.Element {
               <i className='fi fi-rr-home flex justify-center items-center'></i> Home
             </Link>
           </NavbarItem>
-          <NavbarItem className='mx-2'>
-            <Link href={'/BirthdayPlanner'} className='flex justify-center items-center gap-1'>
-              <i className='fi fi-rr-calendar-clock flex justify-center items-center'></i> Birthday Planner
-            </Link>
-          </NavbarItem>
           <NavbarItem>
             <Link href={'/MyBirthday'} className='flex justify-center items-center gap-1'>
               <i className='fi fi-rr-user flex justify-center items-center'></i>My Birthday
